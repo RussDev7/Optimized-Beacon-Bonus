@@ -28,4 +28,4 @@ You can find the whitelist within `tags\entity_types` and can add or remove any 
 
 ## Credits:
 
-Huge shoutout to [@ActuallyBlue](https://github.com/ActuallyBlue/) for created this project and allowing me to archive it publicly here on GitHub. 
+Huge shoutout to [@ActuallyBlue](https://github.com/ActuallyBlue/) for creating this project and allowing me to archive it publicly here on GitHub. 
