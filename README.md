@@ -15,9 +15,12 @@ This is a a simple Minecraft data pack that allows the Beacon to effect entities
 Change the frequently entities near each beacon will recive effects.
  - `data modify storage blue:beacon frequency.ticks set value (ticks)` - Defualt `80 (4 seconds)`
 
+Change the list of tiles allowed for becons to passthrough
+ - `tags\blocks\most_beacon_passable.json` - All json entrees must use the `minecraft:` header.
+
 ## Editing the whitelist:
 
-You can find the whitelist within `tags\entity_types` and can add or remove any desired mobs. All json entrees must use the `minecraft:` header.
+You can find the whitelist within `tags\entity_types\beacon_buffs.json` and can add or remove any desired mobs. All json entrees must use the `minecraft:` header.
 ```
 {
   "values": [
