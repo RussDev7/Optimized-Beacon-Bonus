@@ -1,1 +1,1 @@
-$effect give @e[type=#blue:beacon_buffs,distance=..20] $(primary) 11 0
+$effect give @e[type=#blue:beacon_buffs,distance=..20] $(primary) 11 0 true

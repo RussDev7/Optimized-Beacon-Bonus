@@ -1,0 +1,1 @@
+$schedule function blue:repeat $(ticks)t
