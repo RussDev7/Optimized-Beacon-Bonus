@@ -1,1 +1,1 @@
-$effect give @e[type=#blue:beacon_buffs,distance=..30] $(primary) 13 0 true
+$effect give @e[type=#blue:beacon_buffs,distance=..$(lvl2Range)] $(primary) $(lvl2Duration) 0 $(particles)

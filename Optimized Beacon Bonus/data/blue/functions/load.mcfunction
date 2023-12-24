@@ -1,4 +1,2 @@
-## 20 (ticks) = 1 second. 
-data modify storage blue:beacon frequency.ticks set value 80
 scoreboard objectives add blue.beaconVal dummy
-function blue:repeat
+execute unless score -.loaded blue.beaconVal matches 1 run function blue:firstload
