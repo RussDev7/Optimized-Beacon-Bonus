@@ -1,5 +1,5 @@
 
-# Optimized-Beacon-Bonus - 1.20.2
+# Optimized-Beacon-Bonus Datapack - 1.20.2+
 
 This is a a simple Minecraft data pack that allows the Beacon to effect entities given a custom list of entities. 
 
