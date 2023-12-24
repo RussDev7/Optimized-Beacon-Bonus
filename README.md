@@ -36,13 +36,51 @@ The following options let you manually decide the exact range and duration for a
 /data modify storage blue:beacon main.lvl4Duration set value "17"
 ```
 
-Change the list of tiles allowed for becons to passthrough
+Change the list of tiles allowed for becons to passthrough.
  - `tags\blocks\most_beacon_passable.json` - All json entrees must use the `minecraft:` header.
+```json
+{
+  "values": [
+    "minecraft:cake",
+    "minecraft:snow",
+    "minecraft:fern",
+    "minecraft:lava",
+    "minecraft:vine",
+    "minecraft:ice",
+    "minecraft:air"
+  ]
+}
+```
+
+## Custom beacon foundation:
+
+Change the list of tiles allowed for creating becons as a foundation.
+ - `tags\blocks\beacon_base_blocks.json` - All json entrees must use the `minecraft:` header.
+Bellow is the a json list 
+```json
+{
+  "values": [
+    "minecraft:waxed_weathered_copper",
+    "minecraft:waxed_oxidized_copper",
+    "minecraft:waxed_exposed_copper",
+    "minecraft:waxed_copper_block",
+    "minecraft:weathered_copper",
+    "minecraft:oxidized_copper",
+    "minecraft:netherite_block",
+    "minecraft:exposed_copper",
+    "minecraft:diamond_block",
+    "minecraft:emerald_block",
+    "minecraft:copper_block",
+    "minecraft:iron_block",
+    "minecraft:gold_block"
+  ]
+}
+```
 
 ## Editing the whitelist:
 
 You can find the whitelist within `tags\entity_types\beacon_buffs.json` and can add or remove any desired mobs. All json entrees must use the `minecraft:` header.
-```
+```json
 {
   "values": [
     "minecraft:cat",
