@@ -7,8 +7,11 @@ This is a a simple Minecraft data pack that allows the Beacon to effect entities
 
  - Custom entity whitelist.
  - Editable ranges.
+ - Make buffs visible or not.
  - No advancements.
-
+ - Custom beacon tile foundations.
+ - Fully interactive configuration.
+ - Supports passthrough tiles placed above beacons.
 
 ## Configuration:
 
