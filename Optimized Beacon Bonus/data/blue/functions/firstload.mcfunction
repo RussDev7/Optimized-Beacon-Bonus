@@ -1,7 +1,3 @@
-scoreboard players set -.loaded blue.beaconVal 1
-function blue:repeat
-
-
 # (I usually never make comments) #
   # - Configuration Guide - #
 
@@ -34,3 +30,11 @@ data modify storage blue:beacon main.lvl3Duration set value "15"
 
 data modify storage blue:beacon main.lvl4Range set value "50"
 data modify storage blue:beacon main.lvl4Duration set value "17"
+
+
+
+
+##  ---------------------------------------
+## Don't worry about these two commands, it just starts the initial loop and makes sure this function doesn't run again.. Unless someone resets scores for some bad reason
+scoreboard players set -.loaded blue.beaconVal 1
+schedule function blue:repeat 1s
