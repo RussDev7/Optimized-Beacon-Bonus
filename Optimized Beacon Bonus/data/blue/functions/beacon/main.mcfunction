@@ -5,4 +5,3 @@ execute if score -.levels blue.beaconVal matches 1 run function blue:beacon/prim
 execute if score -.levels blue.beaconVal matches 2 run function blue:beacon/primary/level2 with storage blue:beacon main
 execute if score -.levels blue.beaconVal matches 3 run function blue:beacon/primary/level3 with storage blue:beacon main
 execute if score -.levels blue.beaconVal matches 4 run function blue:beacon/level4
-scoreboard players add -.tick blue.beaconVal 1
