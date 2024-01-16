@@ -1,6 +1,30 @@
 {
 	"pack": {
 			"pack_format": 18,
-			"description": "1.20.2 Bonus Beacons"
-	}
+      "supported_formats": {
+				"min_inclusive": 18,
+				"max_inclusive": 100
+			},
+			"description": [
+        {
+          "text": "Datapack by ActuallyBlue\n",
+          "color": "#447BAB"
+        },
+        {
+          "text": "Version 0.7.0 - MC 1.20.2/.3/.4",
+          "color": "#449CAB"
+        }
+      ]
+    },
+    "overlays": {
+      "entries": [
+          {
+              "formats": {
+                "min_inclusive": 23,
+                "max_inclusive": 100
+              },
+              "directory": "1-20-3"
+          }
+      ]
+  }
 }
