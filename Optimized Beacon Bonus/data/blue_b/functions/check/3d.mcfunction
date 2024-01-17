@@ -1,0 +1,1 @@
+$effect give @s saturation $(lvl3Duration) 0 false

@@ -1,0 +1,1 @@
+$execute store success score -.typeCount blue_b.check.temp if entity @e[type=#blue_b:$(type),limit=1] 

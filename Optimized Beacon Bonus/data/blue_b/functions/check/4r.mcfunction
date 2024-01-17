@@ -1,0 +1,1 @@
+$effect give @s[distance=..$(lvl4Range)] saturation 1 0 false
