@@ -1,7 +1,6 @@
 data remove storage blue:beacon main
-data remove storage blue:beacon frequency
 data modify storage blue:beacon main.type set value "peaceful"
-data modify storage blue:beacon frequency.ticks set value 80
+data modify storage blue:beacon main.frequency.ticks set value 80
 data modify storage blue:beacon main.lvl1Range set value 20
 data modify storage blue:beacon main.lvl1Duration set value 11
 data modify storage blue:beacon main.lvl2Range set value 30

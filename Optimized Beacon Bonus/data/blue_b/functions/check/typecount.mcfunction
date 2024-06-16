@@ -1,1 +1,2 @@
-$execute store success score -.typeCount blue_b.check.temp if entity @e[type=#blue_b:$(type),limit=1] 
+$execute if entity @e[type=#blue_b:$(type),limit=1] run scoreboard players set -.typeCount blue_b.check.temp 1
+$execute unless entity @e[type=#blue_b:$(type),limit=1] run scoreboard players set -.typeCount blue_b.check.temp 0

@@ -1,1 +1,1 @@
-$effect give @s[distance=..$(lvl3Range)] saturation 1 0 false
+$execute if entity @s[distance=..$(lvl3Range)]
