@@ -1,1 +1,0 @@
-$schedule function blue_b:check/blank $(ticks)t
