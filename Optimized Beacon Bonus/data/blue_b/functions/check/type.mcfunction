@@ -1,1 +1,0 @@
-$execute if entity @e[type=#blue_b:$(type),limit=1]

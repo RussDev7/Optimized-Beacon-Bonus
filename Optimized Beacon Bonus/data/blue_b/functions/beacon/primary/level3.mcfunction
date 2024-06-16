@@ -1,1 +1,0 @@
-$effect give @e[type=#blue_b:$(type),distance=..$(lvl3Range)] $(primary) $(lvl3Duration) 0 $(hideParticles)

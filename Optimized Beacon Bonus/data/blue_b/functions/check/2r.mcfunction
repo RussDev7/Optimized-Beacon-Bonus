@@ -1,1 +1,0 @@
-$execute if entity @s[distance=..$(lvl2Range)]

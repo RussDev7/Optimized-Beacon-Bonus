@@ -1,1 +1,0 @@
-$effect give @e[type=#blue_b:$(type),distance=..$(lvl4Range)] minecraft:regeneration $(lvl4Duration) 0 $(hideParticles)
