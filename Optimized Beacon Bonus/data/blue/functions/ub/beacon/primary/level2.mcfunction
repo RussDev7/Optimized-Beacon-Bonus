@@ -1,0 +1,1 @@
+$execute positioned ~-$(lvl2Range) ~-$(lvl2Range) ~-$(lvl2Range) run effect give @e[type=#blue:ub/$(type),dx=$(lvl2dxz),dy=500,dz=$(lvl2dxz)] $(primary) $(lvl2Duration) 0 $(hideParticles)
