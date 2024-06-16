@@ -1,2 +1,0 @@
-execute unless block ~ ~ ~ beacon if entity @s[distance=..6] positioned ^ ^ ^0.1 run return run function blue_b:place/cast
-execute if block ~ ~ ~ beacon align xyz positioned ~0.5 ~0.5 ~0.5 run function blue_b:place/found
