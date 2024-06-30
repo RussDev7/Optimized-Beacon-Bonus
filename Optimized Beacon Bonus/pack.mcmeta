@@ -11,7 +11,7 @@
           "color": "#447BAB"
         },
         {
-          "text": "Version 1.0.1 - MC 1.20.2+",
+          "text": "Version 1.0.2 - MC 1.20.2+",
           "color": "#449CAB"
         }
       ]
@@ -31,7 +31,21 @@
               "max_inclusive": 100
             },
             "directory": "24w12a"
-        }
+          },
+          {
+            "formats": {
+              "min_inclusive": 43,
+              "max_inclusive": 100
+            },
+            "directory": "24w19a"
+          },
+          {
+            "formats": {
+              "min_inclusive": 45,
+              "max_inclusive": 100
+            },
+            "directory": "24w21a"
+          }
       ]
   }
 }
