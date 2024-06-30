@@ -1,46 +1,43 @@
+# Universal Beacons Datapack - 1.20.2+
 
-# Optimized-Beacon-Bonus Datapack - 1.20.6+
-
-This is a a simple Minecraft data pack that allows the Beacon to effect entities given a custom list of entities. 
+This is a a simple, customizable Minecraft data pack that lets Beacons apply effects to more than just players. 
 
 ## Features:
 
- - Custom entity whitelist.
- - Editable ranges.
- - Make buffs visible or not.
- - No advancements.
- - Custom beacon tile foundations.
- - Fully interactive configuration.
- - Supports passthrough tiles placed above beacons.
+ - Identical to a regular beacon
+ - Almost every value is customizable
+ - No advancements, commands, sounds, or popups.
+ - Custom entity whitelist(s).
+ - Copper Block foundation support
 
 ## Configuration:
 
-Change the frequently entities near each beacon will recive effects.
- - `/data modify storage blue:beacon frequency.ticks set value (ticks)` - Defualt `80 (4 seconds)`
+Change how frequently whitelisted entities near each beacon will receive effects.
+ - `/data modify storage blue:data beacon.value.frequency set value 80` - 20 = 1 second
 
-Chooses if the effects entities gain from beacons should create particles.
- - `/data modify storage blue:beacon main.particles set value "true"` - `"true"` is hidden, `"false"` is shown.
+Chooses if the entities with effects granted by this datapack will emit particles or not
+ - `/data modify storage blue:data beacon.value.hideParticles set value "true"` - `"true"` is hidden, `"false"` is shown.
 
-The following options let you manually decide the exact range and duration for all 4 levels (for entities).
+The following options let you manually decide the exact range and duration for all 4 levels (for whitelisted entities).
 ```
-/data modify storage blue:beacon main.lvl1Range set value "20"
-/data modify storage blue:beacon main.lvl1Duration set value "11"
-```
-```
-/data modify storage blue:beacon main.lvl2Range set value "30"
-/data modify storage blue:beacon main.lvl2Duration set value "13"
+/data modify storage blue:data beacon.value.lvl1Range set value 20
+/data modify storage blue:data beacon.value.lvl1Duration set value 11
 ```
 ```
-/data modify storage blue:beacon main.lvl3Range set value "40"
-/data modify storage blue:beacon main.lvl3Duration set value "15"
+/data modify storage blue:data beacon.value.lvl2Range set value 30
+/data modify storage blue:data beacon.value.lvl2Duration set value 13
 ```
 ```
-/data modify storage blue:beacon main.lvl4Range set value "50"
-/data modify storage blue:beacon main.lvl4Duration set value "17"
+/data modify storage blue:data beacon.value.lvl3Range set value 40
+/data modify storage blue:data beacon.value.lvl3Duration set value 15
+```
+```
+/data modify storage blue:data beacon.value.lvl4Range set value 50
+/data modify storage blue:data beacon.value.lvl4Duration set value 17
 ```
 
-Change the list of tiles allowed for becons to passthrough.
- - `tags\blocks\most_beacon_passable.json` - All json entrees must use the `minecraft:` header.
+Add or remove from the list of blocks that effects will be given through
+ - `blue\tags\blocks\beacon\passable.json`
 ```json
 {
   "values": [
@@ -57,9 +54,8 @@ Change the list of tiles allowed for becons to passthrough.
 
 ## Custom beacon foundation:
 
-Change the list of tiles allowed for creating becons as a foundation.
- - `tags\blocks\beacon_base_blocks.json` - All json entrees must use the `minecraft:` header.
-Bellow is the a json list 
+Add to the list of blocks allowed as a beacon's foundation
+ - `minecraft\tags\blocks\beacon_base_blocks.json`
 ```json
 {
   "values": [
@@ -69,20 +65,14 @@ Bellow is the a json list
     "minecraft:waxed_copper_block",
     "minecraft:weathered_copper",
     "minecraft:oxidized_copper",
-    "minecraft:netherite_block",
     "minecraft:exposed_copper",
-    "minecraft:diamond_block",
-    "minecraft:emerald_block",
-    "minecraft:copper_block",
-    "minecraft:iron_block",
-    "minecraft:gold_block"
   ]
 }
 ```
 
-## Editing the whitelist:
+## Editing a whitelist:
 
-You can find the whitelist within `tags\entity_types\beacon_buffs.json` and can add or remove any desired mobs. All json entrees must use the `minecraft:` header.
+You can add or find the custom whitelist within `blue\tags\entity_types\beacon\custom.json` and can add or remove any desired entities.
 ```json
 {
   "values": [
@@ -99,4 +89,4 @@ You can find the whitelist within `tags\entity_types\beacon_buffs.json` and can 
 
 ## Credits:
 
-Huge shoutout to [@ActuallyBlue](https://github.com/ActuallyBlue/) for creating this project and allowing me to archive it publicly here on GitHub. 
+Huge shoutout to [@ActuallyBlue](https://github.com/ActuallyBlue) for creating this project and allowing me to archive it publicly here on GitHub.
