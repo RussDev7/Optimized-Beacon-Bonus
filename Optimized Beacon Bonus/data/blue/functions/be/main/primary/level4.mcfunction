@@ -1,0 +1,2 @@
+$execute positioned ~-$(lvl4Range) ~-$(lvl4Range) ~-$(lvl4Range) run effect give @e[type=#blue:be/$(type),dx=$(lvl4dxz),dy=$(lvl4dy),dz=$(lvl4dxz)] $(primary) $(lvl4Duration) 0 $(hideParticles)
+$execute positioned ~-$(lvl4Range) ~-$(lvl4Range) ~-$(lvl4Range) run effect give @e[type=#blue:be/$(type),dx=$(lvl4dxz),dy=$(lvl4dy),dz=$(lvl4dxz)] $(secondary) $(lvl4Duration) 0 $(hideParticles)

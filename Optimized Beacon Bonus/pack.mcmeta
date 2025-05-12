@@ -11,7 +11,7 @@
           "color": "#447BAB"
         },
         {
-          "text": "Version 1.0.2 - MC 1.20.2+",
+          "text": "Version 1.0.3 - MC 1.20.2+",
           "color": "#449CAB"
         }
       ]
@@ -21,14 +21,14 @@
           {
               "formats": {
                 "min_inclusive": 20,
-                "max_inclusive": 100
+                "max_inclusive": 45
               },
               "directory": "23w41a"
           },
           {
             "formats": {
               "min_inclusive": 36,
-              "max_inclusive": 100
+              "max_inclusive": 45
             },
             "directory": "24w12a"
           },
@@ -45,6 +45,13 @@
               "max_inclusive": 100
             },
             "directory": "24w21a"
+          },
+          {
+            "formats": {
+              "min_inclusive": 58,
+              "max_inclusive": 100
+            },
+            "directory": "24w44a"
           }
       ]
   }

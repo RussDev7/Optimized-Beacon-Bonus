@@ -1,0 +1,1 @@
+$schedule function blue:be/repeat $(frequency)t

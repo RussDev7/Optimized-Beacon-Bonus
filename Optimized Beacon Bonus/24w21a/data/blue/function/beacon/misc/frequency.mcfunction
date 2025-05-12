@@ -1,1 +1,0 @@
-$schedule function blue:beacon/repeat $(frequency)t

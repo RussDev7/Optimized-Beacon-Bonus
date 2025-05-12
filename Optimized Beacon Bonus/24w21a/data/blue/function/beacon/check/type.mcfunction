@@ -1,1 +1,0 @@
-$execute if entity @e[type=#blue:beacon/$(type),limit=1]

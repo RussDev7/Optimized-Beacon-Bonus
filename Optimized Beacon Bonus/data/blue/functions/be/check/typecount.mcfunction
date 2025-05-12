@@ -1,0 +1,2 @@
+$execute if entity @e[type=#blue:be/$(type),limit=1] run scoreboard players set -.typeCount blue.be.temp 1
+$execute unless entity @e[type=#blue:be/$(type),limit=1] run scoreboard players set -.typeCount blue.be.temp 0

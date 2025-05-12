@@ -1,1 +1,0 @@
-$execute positioned ~-$(lvl3Range) ~-$(lvl3Range) ~-$(lvl3Range) run effect give @e[type=#blue:beacon/$(type),dx=$(lvl3dxz),dy=$(lvl3dy),dz=$(lvl3dxz)] $(primary) $(lvl3Duration) 0 $(hideParticles)

@@ -1,2 +1,0 @@
-tellraw @s {"text":"------------------\nDefault Vanilla Values\n\nvalue.frequency = 80\nvalue.type = \"peaceful\"\nvalue.hideParticles = \"true\"\nvalue.lvl1Range = 20\nvalue.lvl1Duration = 11\nvalue.lvl2Range = 30\nvalue.lvl2Duration = 13\nvalue.lvl3Range = 40\nvalue.lvl3Duration = 15\nvalue.lvl4Range = 50\nvalue.lvl4Duration = 17\n------------------","color":"dark_aqua"}
-playsound entity.chicken.egg player @s ~ ~ ~ 1 0.5

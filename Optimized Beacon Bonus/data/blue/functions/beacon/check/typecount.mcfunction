@@ -1,2 +1,0 @@
-$execute if entity @e[type=#blue:beacon/$(type),limit=1] run scoreboard players set -.typeCount blue.beacon.temp 1
-$execute unless entity @e[type=#blue:beacon/$(type),limit=1] run scoreboard players set -.typeCount blue.beacon.temp 0
